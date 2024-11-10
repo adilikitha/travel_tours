@@ -18,7 +18,7 @@ const corsOptions = {
 }
 app.use(cors(
    {
-      origin:{"http://travel_tours-1whq.vercel.app"},
+      origin:{""},
       methods:{"POST","GET"},
       credentials:true
    }
