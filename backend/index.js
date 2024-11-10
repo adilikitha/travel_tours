@@ -18,7 +18,8 @@ const corsOptions = {
 }
 app.use(cors(
    {
-      origin:{""},
+      origin:{"travel-tours-frontend.vercel.app
+"},
       methods:{"POST","GET"},
       credentials:true
    }
