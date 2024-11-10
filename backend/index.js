@@ -16,7 +16,13 @@ const corsOptions = {
    origin: true,
    credentials: true
 }
-
+app.use(cors(
+   {
+      origin:{"http://travel_tours-1whq.vercel.app"},
+      methods:{"POST","GET"},
+      credentials:true
+   }
+   ));
 mongoose.set("strictQuery", false)
 const connect = async() => {
    try {
