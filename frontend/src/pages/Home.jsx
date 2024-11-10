@@ -16,6 +16,7 @@ import Testimonials from '../components/Testimonial/Testimonials'
 import NewsLetter from '../shared/Newsletter'
 
 const Home = () => {
+   axios.post("travel-tours-api.vercel.app")
    return <>
       {/* ========== HERO SECTION ========== */}
       <section>
